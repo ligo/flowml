@@ -19,7 +19,7 @@
  
  计划后面实现kubernetes 实现自动扩容部署。
 
-![功能图](https://github.com/beautifulNow1992/quickMLPlatform/raw/master/images/1.png)
+![功能图](https://github.com/beautifulNow1992/flowml/raw/master/images/1.png)
 
 
 1. ####数据管理

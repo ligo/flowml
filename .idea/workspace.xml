@@ -2,123 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8deecbba-a7f6-42fd-8ba4-a2181373c066" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/beautiful_ui_war.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/beautiful_ui_war_exploded.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sbt.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/beautiful.iml" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/beautiful-api.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/BaseColumnMetaData.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/BinaryMetaData.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/BooleanMetaData.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/ByteMetaData.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/ColumnMetaData.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/ComplexArrayMetaData.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/ComplexMapMetaData.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/DateMetaData.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/DecimalMetaData.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/DoubleMetaData.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/EnumMetaData.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/FloatMetaData.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/IntegerMetaData.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/LongMetaData.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/MatrixMetaData.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/StringMetaData.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/StructMetaData.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/TimestampMetaData.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/VectorMetaData.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/model/Pair.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/schema/ColumnType.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/ArrayWritableValue.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/BinaryWritableValue.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/BooleanWritableValue.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/ByteWritableValue.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/DateWritableValue.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/DecimalWritableValue.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/DoubleWritableValue.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/EnumWritableValue.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/FloatWritableValue.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/IntWritableValue.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/LongWritableValue.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/MapWritableValue.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/Matrix.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/MatrixWritableValue.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/StringWritableValue.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/StructWritableValue.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/TimestampWritableValue.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/Vector.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/VectorWritableValue.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/WritableComparatorUtils.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/WritableValue.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/scala/com/beautiful/api/breeze/package.scala" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/scala/com/beautiful/api/ops/AggregateReducer.scala" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/scala/com/beautiful/api/ops/Filter.scala" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/scala/com/beautiful/api/ops/Loader.scala" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/scala/com/beautiful/api/ops/Ranker.scala" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/scala/com/beautiful/api/ops/Transform.scala" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/src/test/java/beautiful/AppTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/target/beautiful-api-1.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/target/surefire-reports/TEST-beautiful.AppTest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-api/target/surefire-reports/beautiful.AppTest.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-common/beautiful-common.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-common/pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-common/src/main/java/com/beautiful/App.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-common/src/test/java/com/beautiful/AppTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-core/beautiful-core.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-core/pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-core/src/main/java/com/beautiful/App.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-core/src/test/java/com/beautiful/AppTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-data/beautiful-data-loader/beautiful-data-loader.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-data/beautiful-data-loader/pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-data/beautiful-data-loader/src/main/java/com/beautiful/App.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-data/beautiful-data-loader/src/test/java/com/beautiful/AppTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-data/beautiful-data-vec/beautiful-data-vec.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-data/beautiful-data-vec/pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-data/beautiful-data-vec/src/main/java/com/beautiful/data/vec/facade/DataFramesFacade.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-data/beautiful-data-vec/src/test/java/com/beautiful/AppTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-data/beautiful-data.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-data/pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-flow/beautiful-flow.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-flow/pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-flow/src/main/java/com/beautiful/App.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-flow/src/test/java/com/beautiful/AppTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-deploy/beautiful-ml-deploy.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-deploy/pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-deploy/src/main/java/com/beautiful/App.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-deploy/src/test/java/com/beautiful/AppTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-model/beautiful-ml-model.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-model/pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-model/src/main/java/com/beautiful/App.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-model/src/test/java/com/beautiful/AppTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-mxnet/beautiful-ml-mxnet.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-mxnet/pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-mxnet/src/main/java/com/beautiful/App.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-mxnet/src/test/java/com/beautiful/AppTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-stats/beautiful-ml-stats.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-stats/pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-stats/src/main/java/com/beautiful/App.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-stats/src/test/java/com/beautiful/AppTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-tensorflow/beautiful-ml-tensorflow.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-tensorflow/pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-tensorflow/src/main/java/com/beautiful/App.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-tensorflow/src/test/java/com/beautiful/AppTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-ml/pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-ui/beautiful-ui.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-ui/pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-ui/src/main/webapp/WEB-INF/web.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/beautiful-ui/src/main/webapp/index.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/beautiful-ml/target/" />
     <ignored path="$PROJECT_DIR$/beautiful-ml/beautiful-ml-mxnet/target/" />
@@ -147,52 +31,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EsSparkSQL.scala" pinned="false" current-in-tab="true">
-        <entry file="jar://$PROJECT_DIR$/../../cache/org/elasticsearch/elasticsearch-spark-20_2.11/6.2.2/elasticsearch-spark-20_2.11-6.2.2-sources.jar!/org/elasticsearch/spark/sql/EsSparkSQL.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JavaEsSpark.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../cache/org/elasticsearch/elasticsearch-spark-20_2.11/6.2.2/elasticsearch-spark-20_2.11-6.2.2-sources.jar!/org/elasticsearch/spark/rdd/api/java/JavaEsSpark.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JavaEsSparkSQL.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../cache/org/elasticsearch/elasticsearch-spark-20_2.11/6.2.2/elasticsearch-spark-20_2.11-6.2.2-sources.jar!/org/elasticsearch/spark/sql/api/java/JavaEsSparkSQL.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="47" column="53" lean-forward="false" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Map.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="128" column="17" lean-forward="false" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigurationOptions.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../cache/org/elasticsearch/elasticsearch-spark-20_2.11/6.2.2/elasticsearch-spark-20_2.11-6.2.2-sources.jar!/org/elasticsearch/hadoop/cfg/ConfigurationOptions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="46" column="11" lean-forward="false" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
-              <folding />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="297">
+                <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -200,6 +47,8 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -227,6 +76,7 @@
         <option value="$PROJECT_DIR$/beautiful-data/beautiful-data-loader/src/main/scala/com/beautiful/data/loader/BaseLoader.scala" />
         <option value="$PROJECT_DIR$/beautiful-api/src/main/scala/com/beautiful/api/ops/Loader.scala" />
         <option value="$PROJECT_DIR$/beautiful-data/beautiful-data-loader/src/main/scala/com/beautiful/data/loader/ESLoader.scala" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -266,8 +116,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="558" />
-    <option name="y" value="23" />
+    <option name="x" value="14" />
+    <option name="y" value="27" />
     <option name="width" value="1440" />
     <option name="height" value="800" />
   </component>
@@ -310,7 +160,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.19389978" />
@@ -454,15 +304,24 @@
       <option name="presentableId" value="Default" />
       <updated>1521213144720</updated>
       <workItem from="1521213146446" duration="2849000" />
-      <workItem from="1521395109201" duration="510000" />
+      <workItem from="1521395109201" duration="874000" />
     </task>
+    <task id="LOCAL-00001" summary="gh-pages">
+      <created>1521395668610</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1521395668610</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3359000" />
+    <option name="totallyTimeSpent" value="3723000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="558" y="23" width="1440" height="800" extended-state="0" />
+    <frame x="14" y="27" width="1440" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -474,7 +333,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -496,8 +355,38 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="gh-pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="gh-pages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -667,8 +556,19 @@
     <entry file="jar://$PROJECT_DIR$/../../cache/org/elasticsearch/elasticsearch-spark-20_2.11/6.2.2/elasticsearch-spark-20_2.11-6.2.2-sources.jar!/org/elasticsearch/spark/sql/EsSparkSQL.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="297">
+            <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
