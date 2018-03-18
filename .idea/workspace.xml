@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8deecbba-a7f6-42fd-8ba4-a2181373c066" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/beautiful_ui_war.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/beautiful_ui_war_exploded.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/sbt.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/beautiful.iml" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/beautiful-api.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/BaseColumnMetaData.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/BinaryMetaData.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/BooleanMetaData.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/ByteMetaData.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/ColumnMetaData.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/ComplexArrayMetaData.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/ComplexMapMetaData.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/DateMetaData.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/DecimalMetaData.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/DoubleMetaData.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/EnumMetaData.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/FloatMetaData.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/IntegerMetaData.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/LongMetaData.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/MatrixMetaData.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/StringMetaData.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/StructMetaData.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/TimestampMetaData.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/metadata/VectorMetaData.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/model/Pair.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/schema/ColumnType.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/ArrayWritableValue.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/BinaryWritableValue.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/BooleanWritableValue.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/ByteWritableValue.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/DateWritableValue.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/DecimalWritableValue.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/DoubleWritableValue.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/EnumWritableValue.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/FloatWritableValue.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/IntWritableValue.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/LongWritableValue.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/MapWritableValue.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/Matrix.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/MatrixWritableValue.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/StringWritableValue.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/StructWritableValue.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/TimestampWritableValue.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/Vector.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/VectorWritableValue.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/WritableComparatorUtils.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/java/com/beautiful/api/writable/WritableValue.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/scala/com/beautiful/api/breeze/package.scala" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/scala/com/beautiful/api/ops/AggregateReducer.scala" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/scala/com/beautiful/api/ops/Filter.scala" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/scala/com/beautiful/api/ops/Loader.scala" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/scala/com/beautiful/api/ops/Ranker.scala" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/main/scala/com/beautiful/api/ops/Transform.scala" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/src/test/java/beautiful/AppTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/target/beautiful-api-1.0-SNAPSHOT.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/target/maven-archiver/pom.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/target/surefire-reports/TEST-beautiful.AppTest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-api/target/surefire-reports/beautiful.AppTest.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-common/beautiful-common.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-common/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-common/src/main/java/com/beautiful/App.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-common/src/test/java/com/beautiful/AppTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-core/beautiful-core.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-core/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-core/src/main/java/com/beautiful/App.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-core/src/test/java/com/beautiful/AppTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-data/beautiful-data-loader/beautiful-data-loader.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-data/beautiful-data-loader/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-data/beautiful-data-loader/src/main/java/com/beautiful/App.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-data/beautiful-data-loader/src/test/java/com/beautiful/AppTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-data/beautiful-data-vec/beautiful-data-vec.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-data/beautiful-data-vec/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-data/beautiful-data-vec/src/main/java/com/beautiful/data/vec/facade/DataFramesFacade.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-data/beautiful-data-vec/src/test/java/com/beautiful/AppTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-data/beautiful-data.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-data/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-flow/beautiful-flow.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-flow/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-flow/src/main/java/com/beautiful/App.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-flow/src/test/java/com/beautiful/AppTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-deploy/beautiful-ml-deploy.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-deploy/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-deploy/src/main/java/com/beautiful/App.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-deploy/src/test/java/com/beautiful/AppTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-model/beautiful-ml-model.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-model/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-model/src/main/java/com/beautiful/App.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-model/src/test/java/com/beautiful/AppTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-mxnet/beautiful-ml-mxnet.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-mxnet/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-mxnet/src/main/java/com/beautiful/App.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-mxnet/src/test/java/com/beautiful/AppTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-stats/beautiful-ml-stats.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-stats/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-stats/src/main/java/com/beautiful/App.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-stats/src/test/java/com/beautiful/AppTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-tensorflow/beautiful-ml-tensorflow.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-tensorflow/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-tensorflow/src/main/java/com/beautiful/App.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-tensorflow/src/test/java/com/beautiful/AppTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-ml/beautiful-ml.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-ml/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-ui/beautiful-ui.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-ui/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-ui/src/main/webapp/WEB-INF/web.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/beautiful-ui/src/main/webapp/index.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="" />
+    </list>
+    <ignored path="$PROJECT_DIR$/beautiful-ml/target/" />
+    <ignored path="$PROJECT_DIR$/beautiful-ml/beautiful-ml-mxnet/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/beautiful-ml/beautiful-ml-tensorflow/target/" />
+    <ignored path="$PROJECT_DIR$/beautiful-ml/beautiful-ml-stats/target/" />
+    <ignored path="$PROJECT_DIR$/beautiful-ml/beautiful-ml-deploy/target/" />
+    <ignored path="$PROJECT_DIR$/beautiful-data/beautiful-data-loader/target/" />
+    <ignored path="$PROJECT_DIR$/beautiful-data/beautiful-data-vec/target/" />
+    <ignored path="$PROJECT_DIR$/beautiful-core/target/" />
+    <ignored path="$PROJECT_DIR$/beautiful-ml/beautiful-ml-model/target/" />
+    <ignored path="$PROJECT_DIR$/beautiful-api/target/" />
+    <ignored path="$PROJECT_DIR$/beautiful-flow/target/" />
+    <ignored path="$PROJECT_DIR$/beautiful-data/target/" />
+    <ignored path="$PROJECT_DIR$/beautiful-ui/target/" />
+    <ignored path="$PROJECT_DIR$/beautiful-common/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="EsSparkSQL.scala" pinned="false" current-in-tab="true">
+        <entry file="jar://$PROJECT_DIR$/../../cache/org/elasticsearch/elasticsearch-spark-20_2.11/6.2.2/elasticsearch-spark-20_2.11-6.2.2-sources.jar!/org/elasticsearch/spark/sql/EsSparkSQL.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JavaEsSpark.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../cache/org/elasticsearch/elasticsearch-spark-20_2.11/6.2.2/elasticsearch-spark-20_2.11-6.2.2-sources.jar!/org/elasticsearch/spark/rdd/api/java/JavaEsSpark.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JavaEsSparkSQL.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../cache/org/elasticsearch/elasticsearch-spark-20_2.11/6.2.2/elasticsearch-spark-20_2.11-6.2.2-sources.jar!/org/elasticsearch/spark/sql/api/java/JavaEsSparkSQL.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="47" column="53" lean-forward="false" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Map.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1530">
+              <caret line="128" column="17" lean-forward="false" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConfigurationOptions.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../cache/org/elasticsearch/elasticsearch-spark-20_2.11/6.2.2/elasticsearch-spark-20_2.11-6.2.2-sources.jar!/org/elasticsearch/hadoop/cfg/ConfigurationOptions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="46" column="11" lean-forward="false" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../jodd" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../reforcelearning/hanabi" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../reforcelearning/rl4-snake" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../spring-integration-samples" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/beautiful-data/beautiful-data-loader/pom.xml" />
+        <option value="$PROJECT_DIR$/beautiful-data/beautiful-data-loader/src/main/scala/com/beautiful/data/loader/BaseLoader.scala" />
+        <option value="$PROJECT_DIR$/beautiful-api/src/main/scala/com/beautiful/api/ops/Loader.scala" />
+        <option value="$PROJECT_DIR$/beautiful-data/beautiful-data-loader/src/main/scala/com/beautiful/data/loader/ESLoader.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../apache-maven-3.5.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="beautiful" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="beautiful" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="558" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="beautiful" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flowml" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.19389978" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/beautiful-data/beautiful-data-loader/src/main/scala/com/beautiful/data/loader" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="beautiful-flow" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../Odin/doc/uberdata" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../Smunf" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../allaboutscala/source-code/allaboutscala" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../breeze" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../tensorflow_scala" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8deecbba-a7f6-42fd-8ba4-a2181373c066" name="Default" comment="" />
+      <created>1521213144720</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1521213144720</updated>
+      <workItem from="1521213146446" duration="2849000" />
+      <workItem from="1521395109201" duration="510000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3359000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="558" y="23" width="1440" height="800" extended-state="0" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful-api/src/main/scala/com/beautiful/api/ops/Loader.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../cache/org/elasticsearch/elasticsearch-spark-20_2.11/6.2.2/elasticsearch-spark-20_2.11-6.2.2-sources.jar!/org/elasticsearch/spark/sql/EsSparkSQL.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../cache/org/elasticsearch/elasticsearch-spark-20_2.11/6.2.2/elasticsearch-spark-20_2.11-6.2.2-sources.jar!/org/elasticsearch/spark/rdd/api/java/JavaEsSpark.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../cache/org/elasticsearch/elasticsearch-spark-20_2.11/6.2.2/elasticsearch-spark-20_2.11-6.2.2-sources.jar!/org/elasticsearch/spark/sql/api/java/JavaEsSparkSQL.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="47" column="53" lean-forward="true" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="128" column="17" lean-forward="false" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../cache/org/elasticsearch/elasticsearch-spark-20_2.11/6.2.2/elasticsearch-spark-20_2.11-6.2.2-sources.jar!/org/elasticsearch/hadoop/cfg/ConfigurationOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="46" column="11" lean-forward="false" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful-data/beautiful-data-loader/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="21" lean-forward="false" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" column="2" lean-forward="false" selection-start-line="61" selection-start-column="2" selection-end-line="130" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful-data/beautiful-data-loader/src/main/scala/com/beautiful/data/loader/ESLoader.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="49" lean-forward="false" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" column="2" lean-forward="false" selection-start-line="61" selection-start-column="2" selection-end-line="130" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful-data/beautiful-data-loader/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="21" lean-forward="false" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful-data/beautiful-data-loader/src/main/scala/com/beautiful/data/loader/BaseLoader.scala" />
+    <entry file="jar://$PROJECT_DIR$/../../cache/org/elasticsearch/elasticsearch-spark-20_2.11/6.2.2/elasticsearch-spark-20_2.11-6.2.2-sources.jar!/org/elasticsearch/spark/rdd/api/java/JavaEsSpark.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../cache/org/elasticsearch/elasticsearch-spark-20_2.11/6.2.2/elasticsearch-spark-20_2.11-6.2.2-sources.jar!/org/elasticsearch/hadoop/cfg/ConfigurationOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="46" column="11" lean-forward="false" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful-api/src/main/scala/com/beautiful/api/ops/Loader.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../cache/org/elasticsearch/elasticsearch-spark-20_2.11/6.2.2/elasticsearch-spark-20_2.11-6.2.2-sources.jar!/org/elasticsearch/spark/sql/api/java/JavaEsSparkSQL.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="47" column="53" lean-forward="false" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="128" column="17" lean-forward="false" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful-data/beautiful-data-loader/src/main/scala/com/beautiful/data/loader/ESLoader.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../cache/org/elasticsearch/elasticsearch-spark-20_2.11/6.2.2/elasticsearch-spark-20_2.11-6.2.2-sources.jar!/org/elasticsearch/spark/sql/EsSparkSQL.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>beautiful-ui:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19389978" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19389978" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19389978" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19389978" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>beautiful</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19389978" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19389978" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
