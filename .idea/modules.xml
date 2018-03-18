@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/beautiful.iml" filepath="$PROJECT_DIR$/beautiful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beautiful-data/beautiful-data-loader/beautiful-data-loader.iml" filepath="$PROJECT_DIR$/beautiful-data/beautiful-data-loader/beautiful-data-loader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beautiful-data/beautiful-data-vec/beautiful-data-vec.iml" filepath="$PROJECT_DIR$/beautiful-data/beautiful-data-vec/beautiful-data-vec.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beautiful-ml/beautiful-ml-deploy/beautiful-ml-deploy.iml" filepath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-deploy/beautiful-ml-deploy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beautiful-ml/beautiful-ml-model/beautiful-ml-model.iml" filepath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-model/beautiful-ml-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beautiful-ml/beautiful-ml-mxnet/beautiful-ml-mxnet.iml" filepath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-mxnet/beautiful-ml-mxnet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beautiful-ml/beautiful-ml-stats/beautiful-ml-stats.iml" filepath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-stats/beautiful-ml-stats.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beautiful-ml/beautiful-ml-tensorflow/beautiful-ml-tensorflow.iml" filepath="$PROJECT_DIR$/beautiful-ml/beautiful-ml-tensorflow/beautiful-ml-tensorflow.iml" />
+    </modules>
+  </component>
+</project>
