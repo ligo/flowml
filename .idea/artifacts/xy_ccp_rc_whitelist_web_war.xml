@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="xy-ccp-rc-whitelist-web:war">
+    <output-path>$PROJECT_DIR$/../xy-ccp-rc-whitelist/xy-ccp-rc-whitelist-web/target</output-path>
+    <root id="archive" name="xy-ccp-rc-whitelist-web-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="xy-ccp-rc-whitelist-web:war exploded" />
+    </root>
+  </artifact>
+</component>

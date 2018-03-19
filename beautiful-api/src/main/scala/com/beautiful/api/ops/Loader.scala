@@ -1,6 +1,6 @@
 package com.beautiful.api.ops
 
-import org.apache.spark.sql.{Dataset, Row}
+import org.apache.spark.sql.{Dataset, Row, SparkSession}
 
 /**
   *
@@ -11,9 +11,9 @@ import org.apache.spark.sql.{Dataset, Row}
   **/
 trait Loader {
 
-  type Load={ def open(conf:Map[String,String]):Dataset[Row] }
+  type Load={ def read(session:SparkSession, conf:Map[String,String]):Dataset[Row] }
 
-  def load(conf:Load):Dataset[Row]
+  def load(load:Load):Dataset[Row]
 
 
 

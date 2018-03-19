@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="beautiful-api" />
+        <module name="beautiful-common" />
+        <module name="beautiful-core" />
+        <module name="beautiful-data-loader" />
+        <module name="beautiful-data-vec" />
+        <module name="beautiful-flow" />
+        <module name="beautiful-ml-deploy" />
+        <module name="beautiful-ml-model" />
+        <module name="beautiful-ml-mxnet" />
+        <module name="beautiful-ml-stats" />
+        <module name="beautiful-ml-tensorflow" />
+        <module name="beautiful-ui" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="beautiful" target="1.5" />
+      <module name="beautiful-api" target="1.8" />
+      <module name="beautiful-common" target="1.5" />
+      <module name="beautiful-core" target="1.5" />
+      <module name="beautiful-data" target="1.5" />
+      <module name="beautiful-data-loader" target="1.8" />
+      <module name="beautiful-data-vec" target="1.8" />
+      <module name="beautiful-flow" target="1.5" />
+      <module name="beautiful-ml" target="1.5" />
+      <module name="beautiful-ml-deploy" target="1.5" />
+      <module name="beautiful-ml-model" target="1.5" />
+      <module name="beautiful-ml-mxnet" target="1.5" />
+      <module name="beautiful-ml-stats" target="1.5" />
+      <module name="beautiful-ml-tensorflow" target="1.5" />
+      <module name="beautiful-ui" target="1.5" />
+      <module name="xy-ccp-rc-whitelist-web" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
