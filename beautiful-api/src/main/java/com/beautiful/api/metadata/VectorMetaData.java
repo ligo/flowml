@@ -24,8 +24,5 @@ public class VectorMetaData extends BaseColumnMetaData {
         return new VectorMetaData(name);
     }
 
-    @Override
-    public String toString() {
-        return "VectorMetaData{" + "name='" + name + '\'' + '}';
-    }
+
 }

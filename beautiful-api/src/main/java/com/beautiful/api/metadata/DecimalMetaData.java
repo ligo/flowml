@@ -47,8 +47,5 @@ public class DecimalMetaData extends BaseColumnMetaData {
         return precision;
     }
 
-    @Override
-    public String toString() {
-        return "DecimalMetaData{" + "scale=" + scale + ", precision=" + precision + ", name='" + name + '\'' + '}';
-    }
+
 }

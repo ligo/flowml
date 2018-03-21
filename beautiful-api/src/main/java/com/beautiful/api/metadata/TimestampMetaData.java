@@ -21,8 +21,4 @@ public class TimestampMetaData extends BaseColumnMetaData {
         return new TimestampMetaData(name);
     }
 
-    @Override
-    public String toString() {
-        return "TimestampMetaData{" + "name='" + name + '\'' + '}';
-    }
 }

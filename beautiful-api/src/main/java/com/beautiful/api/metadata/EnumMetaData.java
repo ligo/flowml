@@ -40,8 +40,5 @@ public class EnumMetaData extends BaseColumnMetaData {
         return new EnumMetaData(name,stateNames);
     }
 
-    @Override
-    public String toString() {
-        return "EnumMetaData{" + "stateNames=" + stateNames + ", stateNamesSet=" + stateNamesSet + ", name='" + name + '\'' + '}';
-    }
+
 }

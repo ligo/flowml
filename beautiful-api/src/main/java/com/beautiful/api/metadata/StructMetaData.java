@@ -1,5 +1,7 @@
 package com.beautiful.api.metadata;
+
 import com.beautiful.api.schema.ColumnType;
+
 import java.util.List;
 import java.util.Set;
 
@@ -51,8 +53,5 @@ public class StructMetaData extends BaseColumnMetaData{
         this.names = names;
     }
 
-    @Override
-    public String toString() {
-        return "StructMetaData{" + "beanmetas=" + beanmetas + ", names=" + names + ", name='" + name + '\'' + '}';
-    }
+
 }

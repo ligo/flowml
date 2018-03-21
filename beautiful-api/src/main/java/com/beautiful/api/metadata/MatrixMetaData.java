@@ -50,8 +50,5 @@ public class MatrixMetaData extends BaseColumnMetaData {
         this.cols = cols;
     }
 
-    @Override
-    public String toString() {
-        return "MatrixMetaData{" + "rows=" + rows + ", cols=" + cols + ", name='" + name + '\'' + '}';
-    }
+
 }

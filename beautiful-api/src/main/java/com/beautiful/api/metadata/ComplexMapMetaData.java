@@ -47,8 +47,4 @@ public class ComplexMapMetaData extends BaseColumnMetaData{
         this.valueMetaData = valueMetaData;
     }
 
-    @Override
-    public String toString() {
-        return "ComplexMapMetaData{" + "keyMetaData=" + keyMetaData + ", valueMetaData=" + valueMetaData + ", name='" + name + '\'' + '}';
-    }
 }

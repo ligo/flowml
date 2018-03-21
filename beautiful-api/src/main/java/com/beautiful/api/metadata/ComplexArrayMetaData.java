@@ -35,8 +35,5 @@ public class ComplexArrayMetaData extends BaseColumnMetaData{
         this.elementMetaData = elementMetaData;
     }
 
-    @Override
-    public String toString() {
-        return "ComplexArrayMetaData{" + "elementMetaData=" + elementMetaData + ", name='" + name + '\'' + '}';
-    }
+
 }

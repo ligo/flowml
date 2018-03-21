@@ -18,7 +18,11 @@
 
 
     <dependencies>
-
+        <dependency>
+            <groupId>com.beautiful</groupId>
+            <artifactId>beautiful-api</artifactId>
+            <version>${project.version}</version>
+        </dependency>
 
     </dependencies>
     <build>

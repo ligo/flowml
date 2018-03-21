@@ -21,8 +21,4 @@ public class DateMetaData extends BaseColumnMetaData {
         return new DateMetaData(name);
     }
 
-    @Override
-    public String toString() {
-        return "DateMetaData{" + "name='" + name + '\'' + '}';
-    }
 }
