@@ -16,7 +16,7 @@ object MysqlLoader {
       require(conf.contains("url")&&conf.contains("table")&&conf.contains("user")&&conf.contains("password"))
       val driver=conf.get("driver") match {
         case None =>"com.mysql.jdbc.Driver"
-        case _ =>conf.get("driver").get
+        case Some(x) => x
       }
       session.read.format("jdbc").option("url", conf.get("url").get).option("driver",driver).option("dbtable", conf.get("table").get).option("user", conf.get("user").get).option("password", conf.get("password").get).load
    }

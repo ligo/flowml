@@ -10,7 +10,7 @@
   <artifactId>beautiful-api</artifactId>
   <packaging>jar</packaging>
 
-  <name>beautiful-common</name>
+    <name>beautiful-api</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -46,6 +46,11 @@
       <version>${spark.version}</version>
       <scope>provided</scope>
     </dependency>
+      <dependency>
+          <groupId>com.typesafe.scala-logging</groupId>
+          <artifactId>scala-logging_2.11</artifactId>
+          <version>3.8.0</version>
+      </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>

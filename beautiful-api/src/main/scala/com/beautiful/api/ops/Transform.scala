@@ -1,9 +1,8 @@
 package com.beautiful.api.ops
 
-import java.util
-
-import com.beautiful.api.metadata.ColumnMetaData
+import com.beautiful.api.schema.Schema
 import com.beautiful.api.writable.WritableValue
+import com.typesafe.scalalogging.LazyLogging
 
 /**
   *
@@ -12,12 +11,10 @@ import com.beautiful.api.writable.WritableValue
   * @CreateDate: 2018/3/16 下午3:27
   *
   **/
-trait Transform {
+trait Transform extends LazyLogging {
 
-  val inputColumn:ColumnMetaData
+  def map(input: List[WritableValue])(implicit schema: Schema): List[WritableValue]
 
-  def map(input: util.List[WritableValue]): util.List[WritableValue]
-
-  def transform(columnMetaDatas: util.List[ColumnMetaData]): util.List[ColumnMetaData]
+  def transform(implicit schema: Schema): Schema
 
 }

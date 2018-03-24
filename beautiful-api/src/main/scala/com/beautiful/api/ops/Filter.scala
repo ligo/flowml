@@ -1,8 +1,6 @@
 package com.beautiful.api.ops
 
-import java.util
-
-import com.beautiful.api.metadata.ColumnMetaData
+import com.beautiful.api.schema.Schema
 import com.beautiful.api.writable.WritableValue
 
 /**
@@ -14,10 +12,12 @@ import com.beautiful.api.writable.WritableValue
   **/
 trait Filter {
 
-  val schema:util.List[ColumnMetaData]
+  def remove(input: List[WritableValue])
 
-  def remove(input: util.List[WritableValue]):Boolean
+  def setInputSchema(schema: Schema): Unit
+
 
 
 
 }
+
