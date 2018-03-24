@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="beautiful-ui:war">
-    <output-path>$PROJECT_DIR$/beautiful-ui/target</output-path>
-    <root id="archive" name="beautiful-ui.war">
-      <element id="artifact" artifact-name="beautiful-ui:war exploded" />
-    </root>
-  </artifact>
-</component>
