@@ -14,7 +14,7 @@ import org.apache.spark.sql.{Dataset, Row, SparkSession}
   **/
 object JdbcLoader {
 
-  def read(session:SparkSession, conf:Map[String,String]):Dataset[Row]= {
+  def read(conf: Map[String, String])(implicit session: SparkSession): Dataset[Row] = {
     require(conf.contains("url"))
     require(conf.contains("table"))
     require(conf.contains("driver"))

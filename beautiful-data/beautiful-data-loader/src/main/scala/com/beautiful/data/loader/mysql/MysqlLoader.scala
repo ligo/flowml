@@ -2,6 +2,7 @@ package com.beautiful.data.loader.mysql
 
 import org.apache.spark.sql.{Dataset, Row, SparkSession}
 
+
 /**
   *
   * @Description:
@@ -12,7 +13,7 @@ import org.apache.spark.sql.{Dataset, Row, SparkSession}
 object MysqlLoader {
 
 
-  def read(session:SparkSession, conf:Map[String,String]):Dataset[Row]= {
+  def read(conf: Map[String, String])(implicit session: SparkSession): Dataset[Row] = {
       require(conf.contains("url")&&conf.contains("table")&&conf.contains("user")&&conf.contains("password"))
       val driver=conf.get("driver") match {
         case None =>"com.mysql.jdbc.Driver"

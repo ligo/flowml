@@ -3,6 +3,7 @@ package com.beautiful.data.loader.hbase
 import org.apache.spark.sql.execution.datasources.hbase.HBaseTableCatalog
 import org.apache.spark.sql.{Dataset, Row, SparkSession}
 
+
 /**
   *
   * @Description:
@@ -12,7 +13,7 @@ import org.apache.spark.sql.{Dataset, Row, SparkSession}
   **/
 object HbaseLoader {
 
-  def read(session:SparkSession, conf:Map[String,String]):Dataset[Row]= {
+  def read(conf: Map[String, String])(implicit session: SparkSession): Dataset[Row] = {
 
     if (conf.contains("hbase.zookeeper.quorum")) session.sparkContext.hadoopConfiguration.set("hbase.zookeeper.quorum", conf.get("hbase.zookeeper.quorum").get)
     session.sparkContext.hadoopConfiguration.set("hbase.zookeeper.property.clientPort", conf.get("hbase.zookeeper.property.clientPort") match { case None => "2181" case Some(x) => x })

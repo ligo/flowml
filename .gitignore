@@ -1,6 +1,6 @@
 *.class
 *.log
-.idea/*.*
+
 .idea/inspectionProfiles/
 .idea/libraries/Maven__com_typesafe_scala_logging_scala_logging_2_11_3_8_0.xml
 .idea/libraries/Maven__org_scala_lang_scala_reflect_2_11_12.xml
