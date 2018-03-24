@@ -12,11 +12,7 @@ import com.beautiful.api.writable.WritableValue
   **/
 trait Filter {
 
-  def remove(input: List[WritableValue])
-
-  def setInputSchema(schema: Schema): Unit
-
-
+  def remove(input: List[WritableValue])(implicit schema: Schema)
 
 
 }
