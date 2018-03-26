@@ -11,7 +11,7 @@ public class ComplexArrayMetaData extends BaseColumnMetaData{
     private ColumnMetaData elementMetaData;
 
 
-    public ComplexArrayMetaData(String name,ColumnMetaData metaData){
+    public ComplexArrayMetaData(String name, ColumnMetaData metaData) {
         super(name);
         this.elementMetaData=metaData;
     }

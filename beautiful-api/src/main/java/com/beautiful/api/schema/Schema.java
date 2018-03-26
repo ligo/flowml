@@ -21,7 +21,7 @@ public class Schema implements Serializable {
 
     private List<String> columnNames;
 
-    private List<ColumnMetaData> columnMetaData;
+    private List<MetaDatas> columnMetaData;
 
     private Map<String, Integer> columnNamesIndex;
 
@@ -33,7 +33,7 @@ public class Schema implements Serializable {
     protected Schema(Builder builder) {
         this.columnMetaData = builder.columnMetaData;
         this.columnNames = new ArrayList<>();
-        for (ColumnMetaData meta : this.columnMetaData)
+        for (MetaDatas meta : this.columnMetaData)
             this.columnNames.add(meta.getName());
         columnNamesIndex = new HashMap<>();
         for (int i = 0; i < columnNames.size(); i++) {
@@ -42,12 +42,12 @@ public class Schema implements Serializable {
     }
 
 
-    public Schema(List<ColumnMetaData> columnMetaData) {
+    public Schema(List<MetaDatas> columnMetaData) {
         if (columnMetaData == null || columnMetaData.size() == 0)
             throw new IllegalArgumentException("Column meta data must be non-empty");
         this.columnMetaData = columnMetaData;
         this.columnNames = new ArrayList<>();
-        for (ColumnMetaData meta : this.columnMetaData)
+        for (MetaDatas meta : this.columnMetaData)
             this.columnNames.add(meta.getName());
         this.columnNamesIndex = new HashMap<>();
         for (int i = 0; i < columnNames.size(); i++) {
@@ -68,8 +68,8 @@ public class Schema implements Serializable {
     }
 
 
-    public List<ColumnMetaData> differences(Schema schema) {
-        List<ColumnMetaData> ret = new ArrayList<>();
+    public List<MetaDatas> differences(Schema schema) {
+        List<MetaDatas> ret = new ArrayList<>();
         for (int i = 0; i < schema.numColumns(); i++) {
             if (!columnMetaData.contains(schema.getMetaData(i)))
                 ret.add(schema.getMetaData(i));
@@ -79,7 +79,7 @@ public class Schema implements Serializable {
     }
 
 
-    public Schema newSchema(List<ColumnMetaData> columnMetaData) {
+    public Schema newSchema(List<MetaDatas> columnMetaData) {
         return new Schema(columnMetaData);
     }
 
@@ -110,12 +110,12 @@ public class Schema implements Serializable {
     }
 
 
-    public ColumnMetaData getMetaData(int column) {
+    public MetaDatas getMetaData(int column) {
         return columnMetaData.get(column);
     }
 
 
-    public ColumnMetaData getMetaData(String column) {
+    public MetaDatas getMetaData(String column) {
         return getMetaData(getIndexOfColumn(column));
     }
 
@@ -126,13 +126,13 @@ public class Schema implements Serializable {
 
     public List<ColumnType> getColumnTypes() {
         List<ColumnType> list = new ArrayList<>(columnMetaData.size());
-        for (ColumnMetaData md : columnMetaData)
+        for (MetaDatas md : columnMetaData)
             list.add(md.getColumnType());
         return list;
     }
 
 
-    public List<ColumnMetaData> getColumnMetaData() {
+    public List<MetaDatas> getColumnMetaData() {
         return new ArrayList<>(columnMetaData);
     }
 
@@ -178,7 +178,7 @@ public class Schema implements Serializable {
             Object[] objects = new Object[4];
             String colName = getName(i);
             ColumnType type = getType(i);
-            ColumnMetaData meta = getMetaData(i);
+            MetaDatas meta = getMetaData(i);
             objects[0] = i;
             objects[1] = colName;
             objects[2] = type;
@@ -200,10 +200,10 @@ public class Schema implements Serializable {
 
 
     public static class Builder {
-        List<ColumnMetaData> columnMetaData = new ArrayList<>();
+        List<MetaDatas> columnMetaData = new ArrayList<>();
 
 
-        public Builder addColumn(ColumnMetaData metaData) {
+        public Builder addColumn(MetaDatas metaData) {
             columnMetaData.add(metaData);
             return this;
         }
@@ -252,11 +252,11 @@ public class Schema implements Serializable {
             return addColumn(new DecimalMetaData(columnName, scale, presion));
         }
 
-        public Builder addColumnComplexArray(String columnName, ColumnMetaData base) {
+        public Builder addColumnComplexArray(String columnName, MetaDatas base) {
             return addColumn(new ComplexArrayMetaData(columnName, base));
         }
 
-        public Builder addColumnComplexMap(String columnName, ColumnMetaData keymeta, ColumnMetaData valuemeta) {
+        public Builder addColumnComplexMap(String columnName, MetaDatas keymeta, MetaDatas valuemeta) {
             return addColumn(new ComplexMapMetaData(columnName, keymeta, valuemeta));
         }
 
@@ -264,7 +264,7 @@ public class Schema implements Serializable {
             return addColumn(new BinaryMetaData(columnName));
         }
 
-        public Builder addColumnStruct(String columnName, List<ColumnMetaData> metaDatas) {
+        public Builder addColumnStruct(String columnName, List<MetaDatas> metaDatas) {
             return addColumn(new StructMetaData(columnName, metaDatas));
         }
 

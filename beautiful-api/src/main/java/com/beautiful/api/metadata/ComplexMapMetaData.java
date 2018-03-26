@@ -13,7 +13,7 @@ public class ComplexMapMetaData extends BaseColumnMetaData{
     private ColumnMetaData valueMetaData;
 
 
-    public ComplexMapMetaData(String name, ColumnMetaData keyMetaData,ColumnMetaData valueMetaData){
+    public ComplexMapMetaData(String name, ColumnMetaData keyMetaData, ColumnMetaData valueMetaData) {
         super(name);
         this.keyMetaData=keyMetaData;
         this.valueMetaData=valueMetaData;
