@@ -24,7 +24,7 @@ object ColumnMetaDatas {
 
     implicit object StringColumnMetaDataLike extends ColumnMetaDataLike[StringMetaData] {
       override def toStructField(x: StringMetaData): StructField = {
-        DataTypes.createStructField(x.getName, DataTypes.StringType, true)
+        DataTypes.createStructField(x.name, DataTypes.StringType, true)
       }
     }
 
