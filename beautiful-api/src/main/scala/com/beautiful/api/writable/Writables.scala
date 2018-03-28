@@ -1,5 +1,8 @@
 package com.beautiful.api.writable
 
+import com.beautiful.api.writable.WritableValue.DoubleWritable
+import com.google.common.primitives.Doubles
+
 
 /**
   *
@@ -12,7 +15,9 @@ package com.beautiful.api.writable
   **/
 object Writables {
 
-  trait WritableValueLike[T <: WritableValue] {
+  trait WritableValueLike[T] {
+    def compare(x: T, y: T): Int
+
     def +(x: T, y: T): T
 
     def ++(x: T, y: T): Seq[T]
@@ -21,12 +26,14 @@ object Writables {
 
   object WritableValueLike {
 
-    implicit object DoubleWritableValueLike extends WritableValueLike[DoubleWritableValue] {
-      override def +(x: DoubleWritableValue, y: DoubleWritableValue): DoubleWritableValue = new DoubleWritableValue(x.getValue + y.getValue)
+    implicit object DoubleWritableValueLike extends WritableValueLike[DoubleWritable] {
+      override def +(x: DoubleWritable, y: DoubleWritable): DoubleWritable = DoubleWritable(x.value + y.value)
 
-      override def ++(x: DoubleWritableValue, y: DoubleWritableValue): Seq[DoubleWritableValue] = {
+      override def ++(x: DoubleWritable, y: DoubleWritable): Seq[DoubleWritable] = {
         List(x, y)
       }
+
+      override def compare(x: DoubleWritable, y: DoubleWritable): Int = Doubles.compare(x.value, y.value)
     }
 
   }

@@ -11,7 +11,7 @@ import org.apache.spark.sql.{Dataset, Row, SparkSession}
   **/
 trait Exporter{
 
-  type Export={ def write(session:SparkSession, conf:Map[String,String]):Dataset[Row] }
+  type Export = {def write(conf: Map[String, String])(implicit session: SparkSession): Dataset[Row]}
 
   def export(export:Export):Dataset[Row]
 

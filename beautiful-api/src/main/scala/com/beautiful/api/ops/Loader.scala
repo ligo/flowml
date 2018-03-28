@@ -11,7 +11,7 @@ import org.apache.spark.sql.{Dataset, Row, SparkSession}
   **/
 trait Loader {
 
-  type Load={ def read(session:SparkSession, conf:Map[String,String]):Dataset[Row] }
+  type Load = {def read(conf: Map[String, String])(implicit session: SparkSession): Dataset[Row]}
 
   def load(load:Load):Dataset[Row]
 

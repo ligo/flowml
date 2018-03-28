@@ -1,9 +1,5 @@
 package com.beautiful.api.ops
 
-import java.util.Comparator
-
-import com.beautiful.api.writable.WritableValue
-
 /**
   *
   * @Description:
@@ -18,6 +14,6 @@ trait Ranker {
 
   def isAscending: Boolean //是否顺序
 
-  def setComparator: Comparator[_ <: WritableValue] //设置比较器
+  //def setComparator: Comparator[_ <: WritableValue] //设置比较器
 
 }

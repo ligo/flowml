@@ -2,6 +2,7 @@ package com.beautiful.data.vec.examples
 
 
 import com.beautiful.api.writable.WritableValue
+import com.beautiful.api.writable.WritableValue.{DoubleWritable, FloatWritable, IntegerWritable, LongWritable}
 import com.beautiful.data.vec.filter.BaseColumnFilter
 import com.google.common.collect.Range
 
@@ -34,13 +35,14 @@ class RangeMinMaxFilter(columnName: String, params: Map[String, AnyVal]) extends
 
 
   override def removeByColumn(writableValue: WritableValue): Boolean = {
-    if (writableValue.get() == null) {
-      false
-    } else {
-      require(writableValue.get().isInstanceOf[Numeric])
-      val value = writableValue.get().asInstanceOf[Numeric]
-      range.contains(value)
+    writableValue match {
+      case v: IntegerWritable => range.contains(v.value.asInstanceOf[Numeric])
+      case v: LongWritable => range.contains(v.value.asInstanceOf[Numeric])
+      case v: FloatWritable => range.contains(v.value.asInstanceOf[Numeric])
+      case v: DoubleWritable => range.contains(v.value.asInstanceOf[Numeric])
+      case v: _ => throw new IllegalArgumentException(s"非法参数${v}")
     }
+
   }
 
 

@@ -9,7 +9,7 @@ import com.beautiful.api.schema.ColumnType
   * @CreateDate: 2018/3/26 下午11:26
   *
   **/
-sealed abstract case class ColumnMetaData(val name: String, val columnType: ColumnType) extends Serializable with Cloneable
+sealed abstract class ColumnMetaData(val name: String, val columnType: ColumnType) extends Serializable with Cloneable
 
 case class StringMetaData(override val name: String, override val columnType: ColumnType = ColumnType.STRING) extends ColumnMetaData(name, columnType)
 

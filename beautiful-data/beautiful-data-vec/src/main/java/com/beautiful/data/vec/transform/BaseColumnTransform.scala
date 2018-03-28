@@ -1,11 +1,10 @@
 package com.beautiful.data.vec.transform
 
 import com.alibaba.fastjson.JSON
+import com.beautiful.api.metadata.ColumnMetaData
 import com.beautiful.api.ops.Transform
 import com.beautiful.api.schema.Schema
 import com.beautiful.api.writable.WritableValue
-
-import scala.collection.JavaConverters._
 /**
   *
   * @Description:
@@ -18,7 +17,7 @@ abstract class BaseColumnTransform(columnName: String) extends Transform{
   protected var columnNumber: Int = -1
 
 
-  def transformColumnMeta(oldmeta: MetaDatas): MetaDatas
+  def transformColumnMeta(oldmeta: ColumnMetaData): ColumnMetaData
 
   def mapColumn(value: WritableValue):WritableValue
 
