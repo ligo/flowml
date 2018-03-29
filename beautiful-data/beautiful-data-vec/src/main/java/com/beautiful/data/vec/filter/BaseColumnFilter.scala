@@ -15,7 +15,7 @@ import com.typesafe.scalalogging.LazyLogging
 abstract class BaseColumnFilter(val columnName: String) extends Filter with LazyLogging {
 
 
-  override def remove(input: List[WritableValue])(implicit schema: Schema): Boolean = {
+  override def remove(input: Seq[WritableValue])(implicit schema: Schema): Boolean = {
     val columnIndex = schema.getIndexOfColumn(columnName)
     removeByColumn(input(columnIndex))
   }
