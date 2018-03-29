@@ -13,7 +13,7 @@ import com.typesafe.scalalogging.LazyLogging
   **/
 trait Transform extends LazyLogging {
 
-  def map(input: List[WritableValue])(implicit schema: Schema): List[WritableValue]
+  def map(input: Seq[WritableValue])(implicit schema: Schema): List[WritableValue]
 
   def transform(implicit schema: Schema): Schema
 

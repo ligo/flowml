@@ -21,17 +21,17 @@ abstract class BaseColumnTransform(columnName: String) extends Transform{
 
   def mapColumn(value: WritableValue):WritableValue
 
-  override def map(inputs: List[WritableValue])(implicit schema: Schema): List[WritableValue] = {
+  override def map(inputs: Seq[WritableValue])(implicit schema: Schema): Seq[WritableValue] = {
     columnNumber=schema.getIndexOfColumn(columnName)
     require(columnNumber != -1)
-    logger.info(s"当前设置schema为 ${JSON.toJSONString(schema)} columnName 为 "${JSON.toJSONString(columnName)})
+    logger.info(s"当前设置schema为 ${JSON.toJSONString(schema)} columnName 为 ${JSON.toJSONString(columnName)}")
     inputs.map(input => if(input eq (inputs(columnNumber))) mapColumn(input) else input)
   }
 
   override def transform(implicit schema: Schema): Schema = {
-    val oldmetas=schema.getColumnMetaData.asScala
+    val oldmetas = schema.columnMetaDatas
       //oldmetas.zipWithIndex.map{case (oldmeta,index) => if (index==columnNumber) transformColumnMeta(oldmeta) else oldmeta)}
-     return schema.newSchema(oldmetas.map(oldmeta=>if(oldmeta eq oldmetas(columnNumber)) transformColumnMeta(oldmeta) else oldmeta).toList);
+    return Schema.newSchema(oldmetas.map(oldmeta => if (oldmeta eq oldmetas.toSeq(columnNumber)) transformColumnMeta(oldmeta) else oldmeta).toSeq);
 
   }
 }

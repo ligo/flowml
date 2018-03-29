@@ -12,29 +12,33 @@ import scala.collection.mutable.ListBuffer
   * @CreateDate: 2018/3/28 上午2:16
   *
   **/
-case class Schema(columnMetaDatas: List[ColumnMetaData]) {
+case class Schema(columnMetaDatas: Set[ColumnMetaData]) {
+  def getIndexOfColumn(columnName: String) = {
+    columnMetaDatas.toList.indexOf(columnName)
+  }
+
   val columnNamesIndex = columnMetaDatas.map(_.name).zipWithIndex.toMap[String, Int]
 }
 
 
 object Schema {
+  def newSchema(columnMetaDatas: Seq[ColumnMetaData]): Schema = {
+    SchemaBuilder.build(columnMetaDatas)
+  }
 
-  class SchemaBuilder {
+  object SchemaBuilder {
     private val columnMetaData = ListBuffer.empty[ColumnMetaData]
 
     def addColumn(metaData: ColumnMetaData): this.type = {
       columnMetaData += metaData
       this
     }
-
     /**
       * Create the Schema
       */
-    def build: Schema = Schema(columnMetaData.toList)
-  }
+    def build: Schema = Schema(columnMetaData.toSet)
 
-  object SchemaBuilder {
-    def apply: SchemaBuilder = new SchemaBuilder()
+    def build(columnMetaDatas: Seq[ColumnMetaData]): Schema = Schema(columnMetaDatas.toSet)
   }
 
 

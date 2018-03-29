@@ -12,7 +12,7 @@ import com.beautiful.api.writable.WritableValue
   **/
 trait Filter {
 
-  def remove(input: List[WritableValue])(implicit schema: Schema)
+  def remove(input: Seq[WritableValue])(implicit schema: Schema)
 
 
 }
