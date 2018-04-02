@@ -1,11 +1,11 @@
-# flowml
+# flowml 
 流程化 机器学习框架 基于 scala java语言 ,一站式自动机器学习平台 ,主要包括数据分析 特征工程 ，机器模型，自动部署，超参数优化，模型自动优化，自动扩容分配创建功能，类似第四范式、阿里PAI平台、google autoMl、亚马逊SageMaker 
 
 工作比较忙，空余周末时间或者 下班回家后才有时间写一些代码
 最近主要是提取datavec的一些核心代码做数据清洗层scala优化代码
 去掉一些复杂逻辑，后面开始全面实现spark扩展 隐式转换
 
-
+github博客:http://beautifulnow.club/
 
 ##特点
 
