@@ -1,4 +1,4 @@
-package com.beautiful.api.ops
+package com.beautiful.api.ops.spark
 
 import com.beautiful.api.writable.WritableValue
 import org.apache.hadoop.io.Writable
@@ -12,7 +12,7 @@ import org.apache.spark.sql.SparkSession
   * @CreateDate: 2018/3/29 14:23
   *
   **/
-trait Reader {
+trait SparkReader {
 
   type Read = {def read(conf: Map[String, String])(implicit session: SparkSession): RDD[Seq[WritableValue]]}
 

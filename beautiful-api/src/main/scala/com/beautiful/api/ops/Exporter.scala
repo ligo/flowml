@@ -1,6 +1,7 @@
 package com.beautiful.api.ops
 
-import org.apache.spark.sql.{Dataset, Row, SparkSession}
+import com.beautiful.api.writable.WritableValue
+
 
 /**
   *
@@ -11,9 +12,9 @@ import org.apache.spark.sql.{Dataset, Row, SparkSession}
   **/
 trait Exporter{
 
-  type Export = {def write(conf: Map[String, String])(implicit session: SparkSession): Dataset[Row]}
+  type Export = {def write(conf: Map[String, String]): List[WritableValue]}
 
-  def export(export:Export):Dataset[Row]
+  def export(export: Export): List[WritableValue]
 
   
 

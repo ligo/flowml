@@ -1,6 +1,13 @@
 package com.beautiful.api.ops
 
-import org.apache.spark.sql.{Dataset, Row, SparkSession}
+
+import com.bautiful.api.listener.RecordListener
+import com.beautiful.api.row.Record
+import com.beautiful.api.split.LoadSplit
+
+import scala.collection.mutable
+
+
 
 /**
   *
@@ -11,9 +18,26 @@ import org.apache.spark.sql.{Dataset, Row, SparkSession}
   **/
 trait Loader {
 
-  type Load = {def read(conf: Map[String, String])(implicit session: SparkSession): Dataset[Row]}
+  protected var listeners = mutable.ArrayBuffer.empty[RecordListener]
 
-  def load(load:Load):Dataset[Row]
+  def init(conf: Map[String, String], split: LoadSplit): Unit
+
+  def next: Record
+
+  def hasNext: Boolean
+
+  def addListener(listener: RecordListener): this.type = {
+    listeners += listener
+    this
+  }
+
+
+
+
+
+
+
+
 
 
 }

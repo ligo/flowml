@@ -12,6 +12,7 @@ import scala.collection.JavaConverters.{mapAsJavaMapConverter, _}
   * @Description:提供一个对外接口 用于java 继承扩展 来实现reader 自定义读取
   * @Author: zhuyuping
   * @CreateDate: 2018/3/29 14:28
+  *              todo: 提供 spark dataSource 自定义dataframe的 简易接口
   *
   **/
 trait BasicReader {
