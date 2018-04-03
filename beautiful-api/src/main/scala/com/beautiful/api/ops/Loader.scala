@@ -16,7 +16,7 @@ import scala.collection.mutable
   * @CreateDate: 2018/3/16 下午3:28
   *
   **/
-trait Loader {
+trait Loader extends Ops {
 
   protected var listeners = mutable.ArrayBuffer.empty[RecordListener]
 

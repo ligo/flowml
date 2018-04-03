@@ -10,7 +10,7 @@ import com.beautiful.api.writable.WritableValue
   * @CreateDate: 2018/3/16 下午3:28
   *
   **/
-trait Exporter{
+trait Exporter extends Ops {
 
   type Export = {def write(conf: Map[String, String]): List[WritableValue]}
 

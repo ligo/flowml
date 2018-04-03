@@ -12,10 +12,11 @@ import com.beautiful.api.writable.WritableValue
   * @CreateDate: 2018/3/23 下午9:37
   *
   **/
-abstract class BaseColumnTransform(columnName: String) extends Transform{
+abstract class BaseColumnTransform extends Transform {
 
   protected var columnNumber: Int = -1
 
+  protected val columnName: String
 
   def transformColumnMeta(oldmeta: ColumnMetaData): ColumnMetaData
 

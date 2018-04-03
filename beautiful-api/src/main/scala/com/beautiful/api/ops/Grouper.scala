@@ -7,7 +7,7 @@ package com.beautiful.api.ops
   * @CreateDate: 2018/4/2 14:32
   *
   **/
-trait Grouper {
+trait Grouper extends Ops {
 
 
 }

@@ -1,6 +1,7 @@
 package com.beautiful.data.vec.examples
 
 
+import com.beautiful.api.ops.Filter
 import com.beautiful.api.writable.WritableValue
 import com.beautiful.api.writable.WritableValue.{DoubleWritable, FloatWritable, IntegerWritable, LongWritable}
 import com.beautiful.data.vec.filter.BaseColumnFilter
@@ -13,9 +14,11 @@ import com.google.common.collect.Range
   * @CreateDate: 2018/3/22 上午12:10
   *
   **/
-class RangeMinMaxFilter(columnName: String, params: Map[String, AnyVal]) extends BaseColumnFilter(columnName) {
+class RangeMinMaxFilter(params: Map[String, AnyVal]) extends BaseColumnFilter {
+
 
   require(params != null, "params is not allow null")
+  require(params.contains(Filter.COLUMN_NAME), "columnName is not allow null")
   require(params.contains("min"), "min param value is not allow null")
   require(params.contains("max"), "max param value is not allow null")
 
@@ -45,12 +48,12 @@ class RangeMinMaxFilter(columnName: String, params: Map[String, AnyVal]) extends
 
   }
 
-
+  override protected val columnName: String = params.get(Filter.COLUMN_NAME).get.asInstanceOf
 }
 
 object RangeMinMaxFilter {
 
-  def apply(columnName: String, map: Map[String, AnyVal]): RangeMinMaxFilter = new RangeMinMaxFilter(columnName, map)
+  def apply(columnName: String, map: Map[String, AnyVal]): RangeMinMaxFilter = new RangeMinMaxFilter(map + (Filter.COLUMN_NAME -> columnName))
 
 
 }

@@ -7,7 +7,7 @@ package com.beautiful.api.ops
   * @CreateDate: 2018/3/16 下午3:36
   *
   **/
-trait AggregateReducer {
+trait AggregateReducer extends Ops {
 
 
 

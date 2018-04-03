@@ -10,9 +10,16 @@ import com.beautiful.api.writable.WritableValue
   * @CreateDate: 2018/3/16 下午3:18
   *
   **/
-trait Filter {
+trait Filter extends Ops {
 
   def remove(input: Seq[WritableValue])(implicit schema: Schema)
+
+
+}
+
+object Filter {
+
+  val COLUMN_NAME = "_ColumnName"
 
 
 }

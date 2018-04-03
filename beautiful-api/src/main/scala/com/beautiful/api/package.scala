@@ -9,14 +9,5 @@ package com.beautiful.api
   **/
 package object beautiful {
 
-  //  implicit def loaderToSpark(loader:Loader)(implicit session: SparkSession):SparkLoader={
-  //
-  //    //todo
-  //
-  //  }
-
-
-
-
 
 }
