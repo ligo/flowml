@@ -17,6 +17,8 @@ sealed trait WritableValue {
     implicitly[WritableValueLike[T]].compare(x, y)
   }
 
+  def to
+
 
 }
 

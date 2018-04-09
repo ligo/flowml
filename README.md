@@ -1,8 +1,10 @@
 流程化 机器学习框架 基于 scala java语言 ,一站式自动机器学习平台 ,主要包括数据分析 特征工程 ，机器模型，自动部署，超参数优化，模型自动优化，自动扩容分配创建功能，类似第四范式、阿里PAI平台、google autoMl、亚马逊SageMaker 
 
 工作比较忙，空余周末时间或者 下班回家后才有时间写一些代码
-最近主要是提取datavec的一些核心代码做数据清洗层scala优化代码
-去掉一些复杂逻辑，后面开始全面实现spark扩展 隐式转换
+todo:1.封装一个DataFrame抽象层
+todo:2.封装DataFrame -> spark DataSet/DataFrame转换
+todo:3.封装Graph 可视化设计 flow 
+todo:4.FlowGroup flow的处理 connction node
 
 
 最近架构这一块，要考虑很多，要仔细想一想，
@@ -35,6 +37,9 @@ github博客:http://beautifulnow.club/
 
 ![功能图](https://github.com/beautifulNow1992/flowml/raw/master/images/1.png)
 
+### 设计草稿图 
+ ![flowml设计初稿](http://7xllic.com1.z0.glb.clouddn.com/2018-04-09-flowml设计初稿.png)
+### 
 
 1. ####数据管理
 

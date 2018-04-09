@@ -7,7 +7,7 @@ package com.beautiful.data.vec
   * @CreateDate: 2018/4/2 19:18
   *
   **/
-class DataFrames {
+class DataFrames extends Iterable[DataRow] {
 
 
 }

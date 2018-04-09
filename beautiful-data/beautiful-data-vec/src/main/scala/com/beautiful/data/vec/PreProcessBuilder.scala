@@ -14,7 +14,7 @@ trait PreProcessBuilder {
 
   def addFilter(filter: Filter): this.type
 
-  def addTransform(transform: Transform)
+  def addTransform(transform: Transform): this.type
 
   def addGrouper(group: Grouper): this.type
 
@@ -28,11 +28,86 @@ trait PreProcessBuilder {
 }
 
 object SequentialPreProcessBuilder extends PreProcessBuilder {
-  override protected var opsGraph: AnyRef = ArrayBuffer.empty[Ops]
+  override protected var opsGraph: ArrayBuffer[Ops] = ArrayBuffer.empty[Ops]
+
+  override def addLoader(loader: Loader): SequentialPreProcessBuilder.this.type = {
+    opsGraph += loader
+    this
+  }
+
+  override def addFilter(filter: Filter): SequentialPreProcessBuilder.this.type = {
+    opsGraph += filter
+    this
+  }
+
+  override def addTransform(transform: Transform): this.type = {
+    opsGraph += transform
+    this
+  }
+
+  override def addGrouper(group: Grouper): SequentialPreProcessBuilder.this.type = {
+    opsGraph += group
+    this
+  }
+
+  override def addRanker(ranker: Ranker): SequentialPreProcessBuilder.this.type = {
+    opsGraph += ranker
+    this
+  }
+
+  override def addReducer(reducer: AggregateReducer): SequentialPreProcessBuilder.this.type = {
+    opsGraph += reducer
+    this
+  }
+
+  override def addOps(ops: Ops): SequentialPreProcessBuilder.this.type = {
+    opsGraph += ops
+    this
+  }
 }
 
+//先添加定点
 object ComputerGraphPreProcessBuilder extends PreProcessBuilder {
-  override protected var opsGraph: AnyRef = TinkerGraph
+  override protected var opsGraph: TinkerGraph = TinkerGraph
+
+  override def addLoader(loader: Loader): ComputerGraphPreProcessBuilder.this.type = {
+    opsGraph.addVertex(loader)
+    this
+  }
+
+  override def addFilter(filter: Filter): ComputerGraphPreProcessBuilder.this.type = {
+    opsGraph.addVertex(filter)
+    this
+  }
+
+  override def addTransform(transform: Transform): ComputerGraphPreProcessBuilder.this.type = {
+    opsGraph.addVertex(transform)
+    this
+  }
+
+  override def addGrouper(group: Grouper): ComputerGraphPreProcessBuilder.this.type = {
+    opsGraph.addVertex(group)
+    this
+  }
+
+  override def addRanker(ranker: Ranker): ComputerGraphPreProcessBuilder.this.type = {
+    opsGraph.addVertex(ranker)
+    this
+  }
+
+  override def addReducer(reducer: AggregateReducer): ComputerGraphPreProcessBuilder.this.type = {
+    opsGraph.addVertex(reducer)
+    this
+
+  }
+
+  override def addOps(ops: Ops): ComputerGraphPreProcessBuilder.this.type = {
+    opsGraph.addVertex(ops)
+    this
+  }
+
+
+
 }
 
 object PreProcessBuilder {
@@ -55,8 +130,8 @@ object PreProcessBuilder {
 
   def apply(processType: Int): PreProcessBuilder = {
     processType match {
-      case 1 =>
-      case 2 =>
+      case 1 => SequentialPreProcessBuilder
+      case 2 => ComputerGraphPreProcessBuilder
       case _ => throw new IllegalArgumentException(s"非法参数${processType}")
     }
 
