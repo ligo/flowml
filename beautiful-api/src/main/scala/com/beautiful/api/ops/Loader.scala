@@ -1,11 +1,9 @@
 package com.beautiful.api.ops
 
 
-import com.bautiful.api.listener.RecordListener
-import com.beautiful.api.row.Record
+import com.beautiful.api.row.DataRow
 import com.beautiful.api.split.LoadSplit
 
-import scala.collection.mutable
 
 
 
@@ -18,22 +16,15 @@ import scala.collection.mutable
   **/
 trait Loader extends Ops {
 
-  protected var listeners = mutable.ArrayBuffer.empty[RecordListener]
+
 
   def init(conf: Map[String, String], split: LoadSplit): Unit
 
-  def next: Record
+  def next: DataRow
 
   def hasNext: Boolean
 
-  def addListener(listener: RecordListener): this.type = {
-    listeners += listener
-    this
-  }
-
-
-
-
+  def destroy: Unit
 
 
 

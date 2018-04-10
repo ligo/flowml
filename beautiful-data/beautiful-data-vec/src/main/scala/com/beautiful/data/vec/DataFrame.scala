@@ -1,7 +1,12 @@
 package com.beautiful.data.vec
 
-import com.beautiful.api.metadata.ColumnMetaData
+
+import com.beautiful.api.block.DataBlock
+import com.beautiful.api.column.DataColumn
+import com.beautiful.api.index.Index
 import com.beautiful.api.ops._
+import com.beautiful.api.row.DataRow
+import shapeless.T
 
 
 /**
@@ -13,13 +18,15 @@ import com.beautiful.api.ops._
   **/
 trait DataFrame extends Iterable[DataRow] {
 
-  def getColumns: Array[ColumnMetaData]
+  def getIndex: Index
 
-  def getColumn(name: String): ColumnMetaData
+  def getColumns: Array[DataColumn]
 
-  def getColumn(index: Int): ColumnMetaData
+  def getColumn(name: String): DataColumn
 
-  def groupby(grouper: Grouper*): DataFrame
+  def getColumn(index: Int): DataColumn
+
+  def groupBy(grouper: Grouper*): DataFrame
 
   def reducer(reducer: AggregateReducer*): DataFrame
 
@@ -44,12 +51,21 @@ trait DataFrame extends Iterable[DataRow] {
 
 }
 
-abstract class BasicDataFrame extends DataFrame {
+abstract class BasicDataFrame(var index: Index, var columns: Seq[DataColumn], var datas: DataBlock[T]) extends DataFrame {
 
 
+  this () = {
+    this (new Index, Seq.empty, new DataBlock);
+  }
+
+  this (index: Index, columns: Seq[DataColumn]) = {
+    this (index, columns, new DataBlock);
+  }
+
+  override def from(loader: Loader): DataFrame = {
+    loader.addListener()
+
+  }
 }
 
-object SQLDataFrame extends BasicDataFrame {
 
-
-}
